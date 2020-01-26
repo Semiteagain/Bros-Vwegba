@@ -1,0 +1,381 @@
+body {
+  background-color: #ebebed;
+}
+
+header {
+  padding: 30px 0 20px 0;
+}
+
+header .logo h1 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: sans-serif;
+  color: #232d51;
+}
+
+header .logo h1 span {
+  color: #fc4450;
+}
+
+header nav ul {
+  margin-top: 10px;
+  float: right;
+}
+
+header nav ul li {
+  float: left;
+  margin-left: 50px;
+}
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+  font-family: mada;
+  font-weight: 500;
+  color: #232d51;
+}
+
+/* section-a */
+
+section.section-a {
+  height: 550px;
+  padding-bottom: 30px;
+  background-color: #ebebed;
+}
+
+.section-a .theme {
+  position: relative;
+  top: 150px;
+}
+
+.section-a .theme h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "montserrat";
+  color: #232d51;
+  margin-bottom: 20px;
+  line-height: 60px;
+}
+
+.section-a .theme p {
+  font-size: 0.9em;
+  font-family: mada;
+  margin-bottom: 30px;
+  color: #232d51;
+}
+
+.section-a .theme a {
+  display: inline-block;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: mada;
+  font-size: 0.8em;
+  color: #ffffff;
+  background-color: #fc4450;
+  background-image: linear-gradient(to bottom right, orangered, #fc4450);
+  padding: 18px 60px;
+  border-radius: 2px;
+}
+.section-a .theme-img {
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: 115px;
+}
+
+.section-a .theme-img img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* scetion-b */
+
+section.section-b {
+  background-color: #d8d8d8;
+  position: relative;
+  padding-bottom: 100px;
+  top: 70px;
+}
+
+.section-b .bg-dark {
+  height: 240px;
+  width: 70%;
+  background-color: #33384b;
+  position: absolute;
+  right: 0;
+  top: -70px;
+}
+.section-b .social-icons {
+  position: relative;
+  top: 50px;
+  display: flex;
+}
+
+.section-b .social-icons span {
+  flex-grow: 1;
+  padding-bottom: 10px;
+}
+.section-b .social-icons span a {
+  text-decoration: none;
+  font-size: 26px;
+  color: #33384b;
+}
+
+.section-b .social-icons span:nth-child(1) {
+  border-bottom: 2px solid #33384b;
+}
+.section-b .social-icons span:nth-child(2) {
+  border-bottom: 2px solid #1797e3;
+}
+.section-b .social-icons span:nth-child(3) {
+  border-bottom: 2px solid #eb127e;
+}
+
+.section-b .g-content {
+  position: relative;
+  z-index: 2;
+  font-family: mada;
+}
+
+.section-b .g-content h4 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.section-b .g-content p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.section-b .g-content .g-box {
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section-b .g-content .g-box img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.section-b .gallery-story {
+  padding: 70px 0px 20px 0px;
+}
+
+.section-b .gallery-story .header h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: montserrat;
+  color: #33384b;
+  margin-bottom: 40px;
+}
+
+.section-b .gallery-story .content .pic-display {
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-b .gallery-story .content .pic-display img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.section-b .gallery-story .content .pic-story {
+  height: 300px;
+  background-color: #ebebeb;
+  position: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.section-b .gallery-story .content .pic-story h1 {
+  position: absolute;
+  top: 92px;
+  left: -37px;
+  font-size: 250px;
+  font-weight: 800;
+  font-family: "open sans";
+  color: #d8d8d8;
+}
+.section-b .gallery-story .content .pic-story hr {
+  border: 1.5px solid #eb127e;
+  width: 30%;
+  margin: 0 auto;
+}
+.section-b .gallery-story .content .pic-story p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: lato;
+  color: #33384b;
+  position: relative;
+  line-height: 2em;
+}
+.section-b .gallery-display .content .pic-display {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+.section-b .gallery-display .content .pic-display img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* section-c */
+
+section.section-c {
+  background-color: #d8d8d8;
+  padding: 100px 0px;
+}
+
+section.section-c .magazine-style {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+section.section-c .magazine-style img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+section.section-c .article-style {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+section.section-c .article-style .top-section {
+  height: 50%;
+  display: flex;
+  overflow: hidden;
+}
+section.section-c .article-style .top-section h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: tahoma;
+  color: #33384b;
+  margin-bottom: 40px;
+}
+section.section-c .article-style .top-section p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: lato;
+  color: #33384b;
+}
+
+section.section-c .article-style .botton-section .pic {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+section.section-c .article-style .botton-section .pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* section-d */
+
+section.section-d {
+  background-color: #d8d8d8;
+  padding: 50px 0px 100px 0px;
+  position: relative;
+}
+
+section.section-d .bio-pic {
+  height: 540px;
+  width: 100%;
+  overflow: hidden;
+}
+section.section-d .bio-pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+section.section-d .biography {
+  position: absolute;
+  top: 75px;
+  overflow: hidden;
+}
+section.section-d .biography h1 {
+  text-transform: capitalize;
+  font-family: tahoma;
+  font-size: 70px;
+  font-weight: 700;
+  color: #33384b;
+  margin-bottom: 25px;
+  line-height: 90px;
+}
+
+section.section-d .biography h1 span {
+  font-size: 40px;
+  background-color: #33384b;
+  color: #ebebeb;
+  padding: 10px 20px;
+  border-bottom-right-radius: 15px;
+}
+
+section.section-d .biography .bio-content {
+  padding-left: 12px;
+  border-left: 2px solid #eb127e;
+}
+
+section.section-d .biography .bio-content p {
+  font-family: mada;
+  font-size: 14px;
+  line-height: 18px;
+  color: #33384b;
+  margin-bottom: 25px;
+}
+
+section.section-d .biography blockquote {
+  position: relative;
+  padding-left: 20px;
+}
+section.section-d .biography blockquote p {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #33384b;
+}
+
+section.section-d .biography blockquote p:before,
+section.section-d .biography blockquote p:after {
+  font-size: 55px;
+  color: #33384b;
+}
+section.section-d .biography blockquote p:before {
+  content: "“";
+  float: left;
+  position: absolute;
+  top: -5px;
+  left: -3px;
+}
+section.section-d .biography blockquote p:after {
+  content: "”";
+  float: right;
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+}
