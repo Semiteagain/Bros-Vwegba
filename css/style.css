@@ -379,3 +379,198 @@ section.section-d .biography blockquote p:after {
   bottom: -10px;
   right: 20px;
 }
+section.section-e {
+  background-color: #ebebeb;
+  padding: 100px 0px;
+  border-bottom: 6px solid #33384b;
+}
+
+section.section-e .showroom-pic {
+  height: 450;
+  width: 100%;
+  overflow: hidden;
+}
+section.section-e .showroom-pic img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+section.section-e .showroom-product-details {
+  height: 450px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: roboto;
+  position: relative;
+}
+
+section.section-e .showroom-product-details p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  position: relative;
+  right: 80px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  padding: 6px 8px;
+}
+
+section.section-e .showroom-product-details ul {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px 0 15px;
+  padding: 0;
+}
+
+section.section-e .showroom-product-details ul li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 20px 20px;
+}
+
+section.section-e .showroom-product-details ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 4px solid #ee5847;
+}
+
+section.section-e .showroom-product-details .price {
+  color: #33384b;
+  position: absolute;
+  bottom: 0;
+}
+section.section-e .showroom-product-details .price h4 {
+  font-size: 20px;
+}
+section.section-e .showroom-product-details .price h1 {
+  font-style: 40px;
+  line-height: 35px;
+}
+section.section-e .showroom-product-details .price h1 span {
+  font-size: 20px;
+}
+
+section.section-e aside {
+  display: flex;
+  flex-direction: column;
+  height: 450;
+}
+section.section-e aside button {
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+section.section-e aside button.previous {
+  background-color: #33384b;
+}
+section.section-e aside button.next {
+  background-color: #eb127e;
+}
+section.section-e aside button.previous:hover {
+  background-color: #262b41;
+}
+section.section-e aside button.next:hover {
+  background-color: #d1342c;
+}
+
+/* footer */
+
+footer {
+  background-image: linear-gradient(to bottom, #ec5e46, #ed4545);
+  padding: 70px 0px 140px 0px;
+  /* box-sizing: border-box; */
+  font-family: mada;
+  font-weight: 300;
+  color: #ebebed;
+}
+
+footer .foot-header {
+  margin-bottom: 75px;
+}
+footer .foot-header h1 {
+  font-size: 60px;
+  text-align: center;
+}
+footer .foot-header h1 span {
+  color: #ec5e46;
+  background-color: #ebebed;
+  padding: 2px 12px;
+  font-weight: 500;
+}
+
+footer hr {
+  border: 1px solid #ebebed;
+}
+
+footer .contact {
+  margin-top: 75px;
+}
+
+footer .contact h1 {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ebebed;
+}
+footer .contact .contact-details ul li {
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+}
+footer .contact .contact-form form input,
+footer .contact .contact-form form input::placeholder,
+footer .contact .contact-form form textarea,
+footer .contact .contact-form form button {
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: rgba(255, 0, 0, 0);
+  border: 1px solid #ebebed;
+  color: #ebebed;
+  font-size: 14px;
+  font-family: "open sans";
+}
+footer .contact .contact-form form input {
+  width: 48%;
+  margin: 10px 0px;
+}
+
+footer .contact .contact-form form input::placeholder {
+  color: #ebebed;
+}
+
+footer .contact .contact-form form textarea {
+  resize: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+footer .contact .contact-form form button {
+  padding: 15px 50px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+footer .contact .contact-form form button:hover {
+  background-color: #ebebed;
+  color: #33384b;
+}
+
+footer .contact .contact-form form button i {
+  padding-right: 10px;
+}
+
+footer .contact .contact-address p {
+  font-size: 18px;
+  font-weight: 400;
+}
