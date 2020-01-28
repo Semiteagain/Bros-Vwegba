@@ -379,9 +379,13 @@ section.section-d .biography blockquote p:after {
   bottom: -10px;
   right: 20px;
 }
+
+/* section-e */
+
 section.section-e {
   background-color: #ebebeb;
   padding: 100px 0px;
+  position: relative;
   border-bottom: 6px solid #33384b;
 }
 
@@ -443,23 +447,23 @@ section.section-e .showroom-product-details ul li:before {
 section.section-e .showroom-product-details .price {
   color: #33384b;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
 }
 section.section-e .showroom-product-details .price h4 {
   font-size: 20px;
 }
 section.section-e .showroom-product-details .price h1 {
-  font-style: 40px;
+  font-style: 46px;
   line-height: 35px;
 }
-section.section-e .showroom-product-details .price h1 span {
-  font-size: 20px;
+section.section-e .showroom-product-details .price h1 sup {
+  font-size: 28px;
 }
 
 section.section-e aside {
   display: flex;
   flex-direction: column;
-  height: 450;
+  height: 450px;
 }
 section.section-e aside button {
   display: flex;
